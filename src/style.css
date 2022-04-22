@@ -1,0 +1,150 @@
+body {
+    background-image: url(./img/background.png);
+    
+    /* overflow:hidden; */
+    /* overflow-y:hidden;  /*для вертикального*/
+    /*overflow-x:hidden;  /*для горизонтального*/ 
+
+
+  }
+  
+.header{
+  margin-left: 375px;
+  
+  
+}
+
+
+#logo_img2{
+  margin-left: -6px;
+  margin-right: 12px;
+}
+ #logo_name{
+ margin-left: 12px;
+ margin-top: 18px;
+
+}
+
+.form_log {
+
+    width :570px;
+    height : 533px;
+    margin: 206px 973px 266px 381px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 40px;
+}
+  input {
+    margin-bottom: 24px;
+    height: 76px;
+    width: 490px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1) ;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 40px;
+    padding-left: 24px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+ #toggle{
+   position: absolute;
+   top: 45%;
+   right: 55px;
+   transform: translateY(-50%);
+   height: 24px;
+   width: 24px;
+   background: url(./img/show.png);
+   background-size: cover;
+   cursor: pointer;
+ } 
+ #toggle.hide{
+   background:url(./img/hide.png);
+   background-size:cover;
+ }
+  
+   p{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+
+  }
+.log_btn{
+      width: 490px;
+      height: 56px;
+      border-radius: 10px;
+      background-color:  #DCDCDC;
+      margin-bottom: 15px;
+      border: none;
+      padding: 0 20px;
+      color: #4b4b4b;
+      margin-left: 40px;
+     
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 700;
+
+      text-align: center;
+
+
+}log_btn:hover {
+  color:#FF9232;
+}
+
+::placeholder {
+  color: #949494;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+
+}
+
+
+#big_logo{
+  margin-top: 275px;
+  margin-left: 971px;
+  padding-left: 100px;
+ 
+}
+#main_text{
+color: #FFFFFF;
+height: 73px;
+width: 470px;
+margin-top: 24px;
+margin-left: 971px;
+padding-left: 100px;
+font-family: Montserrat;
+font-size: 60px;
+font-weight: 600;
+line-height: 73px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#other_text{
+margin-top: -20px;
+margin-left: 971px;
+padding-left: 100px;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color:  #FFFFFF;
+
+}
