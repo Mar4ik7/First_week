@@ -38,6 +38,7 @@ body {
 }
 
   input {
+    outline:none;
     margin-bottom: 24px;
     height: 76px;
     width: 490px;
@@ -52,9 +53,11 @@ body {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  } hover{
+    color: #FFFFFF;
   }
 
- #toggle{
+#toggle{
     position: absolute;
     top: 45%;
     right: 55px;
@@ -65,7 +68,7 @@ body {
     background-size: cover;
     cursor: pointer;
  } 
- #toggle.hide{
+#toggle.hide{
     background:url(./img/hide.png);
     background-size:cover;
  }
