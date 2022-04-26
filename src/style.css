@@ -1,11 +1,14 @@
 body {
+    width: 1924px;
+    height: 1080px;
+    position: relative;
     background-image: url(./img/background.png);
-    height: 100%;
-    widows: 100%;
-    overflow:hidden; 
-    /* overflow-y:hidden;  /*для вертикального*/
-    /*overflow-x:hidden;  /*для горизонтального*/ 
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+    
+  
+  
   
 .header{
     margin-left: 375px; 
@@ -18,7 +21,6 @@ body {
 }
 
 .header p {
-    position: fixed;
     color:#FFFFFF;
     margin-left: 53px;
     margin-top: -35px;
@@ -26,7 +28,6 @@ body {
    
 
 .form_log {
-    position: fixed;
     width :570px;
     height : 533px;
     margin: 206px 973px 266px 381px;
@@ -38,6 +39,7 @@ body {
 }
 
   input {
+    position: relative;
     outline:none;
     margin-bottom: 24px;
     height: 76px;
@@ -53,8 +55,8 @@ body {
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  } hover{
-    color: #FFFFFF;
+  } input:focus{
+    background-color: #FFFFFF;
   }
 
 #toggle{
@@ -87,7 +89,7 @@ body {
     width: 490px;
     height: 56px;
     border-radius: 10px;
-    background-color:  #DCDCDC;
+    background-color: #DCDCDC;
     margin-bottom: 15px;
     border: none;
     padding: 0 20px;
@@ -97,6 +99,10 @@ body {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
+  }
+  
+  .log_btn:hover{
+    background-color:#FF9232;
   }
 
 ::placeholder {
@@ -112,6 +118,7 @@ body {
 
 
 #big_logo{
+  
     width :470px;
     height :112px;
     margin-top: 220px;
@@ -120,6 +127,7 @@ body {
  
 }
 #main_text{
+  
     color: #FFFFFF;
     height: 73px;
     width: 470px;
