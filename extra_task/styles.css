@@ -1,0 +1,166 @@
+.pink_block{
+    height: 445px;
+    width: 1330px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white_block{
+    height: 197px;
+    width: 1034px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.black_block{
+    height: 90px;
+    width: 827px;
+    background-color: black;
+}
+
+.wrapper{
+    background-color: grey;
+    height: 30px;
+    width: 1330px;
+}
+.squares{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.square1{
+    width: 332px;
+    height: 300px;
+    background-color: red;
+}
+
+.square2{
+    width: 332px;
+    height: 300px;
+    background-color: orange;
+}
+
+.square3{
+    width: 332px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.square4{
+    width: 332px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.third_block{
+    display: flex;
+}
+
+.left_block{
+    width: 443px;
+    height: 750px;
+    background-color:darkgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.up_block{
+    display: flex;
+    justify-content: center;
+    background-color:orange;
+    width: 305px;
+    height: 83px;
+    margin-top: 119px;
+}
+
+.under_block1{
+    background-color: pink;
+    width: 152px;
+    height: 427px;
+    margin-top: 83px;
+    
+}
+.under_block2{
+    background-color: yellow;
+    width: 152px;
+    height: 427px;
+    margin-top: 83px;
+}
+
+.center_block{
+    width: 441px;
+    height: 750px;
+    background-color: aqua;
+    display: flex;
+    
+}
+.left_side{
+    width: 147px;
+    height: 631px;
+    background-color: red;
+    margin-top: 119px;
+}
+.first_yellow{
+    background-color:yellow;
+    width: 148px ;
+    height: 65px;
+    margin-top: 119px;
+}
+.second_orange{
+    background-color:orange;
+    width: 73px;
+    height: 565px;
+}
+.third_yellow{
+    background-color:yellow;
+    width: 75px;
+    height: 272px;
+    margin-left: 73px;
+    margin-top: -565px;
+}
+.fourth_red{
+    background-color:red;
+    width: 75px;
+    height: 293px;
+    margin-left: 73px;
+
+}
+.right_side{
+    width: 147px;
+    height: 631px;
+    background-color: orange;
+    margin-top: 119px;
+}
+
+.right_block{
+    width: 445px;
+    height: 750px;
+    background-color:blue;
+    display: flex;
+}
+.aqua_square{
+    background-color: aqua;
+    width: 150px;
+    height: 221px;
+    margin-top: 459px;
+}
+.yellow_square{
+    background-color: yellow;
+    width:150px;
+    height: 221px;
+    margin-top: 349px;
+}
+.orange_square{
+    background-color: orange;
+    width:150px;
+    height: 221px;
+    margin-top: 239px;
+}
+.fourth_block{
+    background-color:black;
+    width: 1330px;
+    height: 305px;
+}
