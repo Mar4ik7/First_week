@@ -15,9 +15,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-     background: black;
+    background: rgba(0, 0, 0, 0.3);
+    background: black;
     opacity: 0.5; 
-    z-index: 999;
 }
   
   
