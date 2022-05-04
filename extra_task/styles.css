@@ -5,29 +5,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
+}
+
+
+
+.head{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 .white_block{
     height: 197px;
     width: 1034px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center; 
     background-color: white;
 }
 .black_block{
     height: 90px;
     width: 827px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
     background-color: black;
+    
 }
 
 .wrapper{
     background-color: grey;
     height: 30px;
     width: 1330px;
+   
 }
- p{
+ .menu{
     text-align: center;
+    margin: 0;
 }
 
 .squares{
@@ -60,6 +84,11 @@
     background-color: yellow;
 }
 
+p{
+    display: flex;
+    align-items:center
+}
+
 .third_block{
     display: flex;
 }
@@ -72,6 +101,7 @@
     justify-content: center;
 }
 
+
 .up_block{
     display: flex;
     justify-content: center;
@@ -80,6 +110,7 @@
     height: 83px;
     margin-top: 119px;
 }
+
 
 .under_block1{
     background-color: pink;
@@ -118,11 +149,12 @@
     background-color:orange;
     width: 73px;
     height: 565px;
+    margin: 0px;
 }
 .third_yellow{
     background-color:yellow;
     width: 75px;
-    height: 272px;
+    height: 273px;
     margin-left: 73px;
     margin-top: -565px;
 }
@@ -168,4 +200,9 @@
     background-color:black;
     width: 1330px;
     height: 305px;
+}
+.underground{
+    text-align: center;
+    margin: 0;
+    color: white;
 }
