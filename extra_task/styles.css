@@ -12,12 +12,8 @@
 
 
 .head{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-   
+    position: absolute;
+    margin-top: -415px;
 }
 
 .white_block{
@@ -84,14 +80,12 @@
     background-color: yellow;
 }
 
-p{
-    display: flex;
-    align-items:center
-}
+
 
 .third_block{
     display: flex;
 }
+
 
 .left_block{
     width: 443px;
@@ -100,6 +94,17 @@ p{
     display: flex;
     justify-content: center;
 }
+.left_text{
+    position:absolute;
+    margin-top:-17px
+}
+
+.left{
+    position:absolute;
+    margin-top:-17px
+}
+
+
 
 
 .up_block{
@@ -114,16 +119,25 @@ p{
 
 .under_block1{
     background-color: pink;
-    width: 152px;
+    width: 153px;
     height: 427px;
-    margin-top: 83px;
-    
+    margin-top: 83px;   
 }
+
+.under_block1 .a{
+    text-align: center;
+    margin-top: -15px;
+}
+
 .under_block2{
     background-color: yellow;
     width: 152px;
     height: 427px;
     margin-top: 83px;
+}
+.under_block2 .b{
+    text-align: center;
+    margin-top: -15px;
 }
 
 .center_block{
@@ -131,6 +145,13 @@ p{
     height: 750px;
     background-color: aqua;
     display: flex;
+    justify-content: center;
+    
+}
+.center_text{
+    position:absolute;
+    margin-top:-17px;
+    
     
 }
 .left_side{
@@ -139,17 +160,29 @@ p{
     background-color: red;
     margin-top: 119px;
 }
+
 .first_yellow{
     background-color:yellow;
     width: 148px ;
     height: 65px;
     margin-top: 119px;
 }
+.first_yellow .main_central{
+    text-align: center;
+    margin-top: 1px;
+}
 .second_orange{
     background-color:orange;
     width: 73px;
     height: 565px;
     margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.second_orange .orange_central{
+    position: absolute;
+    margin-top: -7px;
+    
 }
 .third_yellow{
     background-color:yellow;
@@ -157,6 +190,13 @@ p{
     height: 273px;
     margin-left: 73px;
     margin-top: -565px;
+    display: flex;
+    justify-content: center;
+    
+}
+.third_yellow .yellow_central{
+    position: absolute;
+    margin-top: -7px;
 }
 .fourth_red{
     background-color:red;
@@ -177,6 +217,11 @@ p{
     height: 750px;
     background-color:blue;
     display: flex;
+    justify-content: center;
+}
+.right_text{
+    position: absolute;
+    margin-top: -17px;
 }
 .aqua_square{
     background-color: aqua;
@@ -196,13 +241,34 @@ p{
     height: 221px;
     margin-top: 239px;
 }
+.orange_square .text1{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    background-color:black;
+    color:aqua;
+    text-align: center;
+    margin-top: 135px;
+}
+.orange_square .text2{
+    width: 60px;
+    height: 25px;
+    background-color:black;
+    color:aqua;
+    text-align: center;
+    margin-top: 79px;
+    margin-left: 88px;
+}
 .fourth_block{
     background-color:black;
     width: 1330px;
     height: 305px;
+    display: flex;
+    justify-content: center;
 }
-.underground{
+.basement{
+    position: absolute;
+    margin-top: -13px;
     text-align: center;
-    margin: 0;
     color: white;
 }
