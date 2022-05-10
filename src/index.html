@@ -22,23 +22,25 @@
                 Log in 
             </p>
             <input  
-                name="email"    
+                name="email" 
+                class="email"   
                 required    
                 placeholder="Email" 
                 type="email">
             <input  
                 name="password" 
+                class="password"
                 id="password" 
                 required 
                 placeholder="Password" 
                 type="password"
             >
             <div id="toggle" onclick="showHide()"></div>
-            <button class="log_btn">
+            <button class="log_btn" name="button">
                 LOG IN
             </button>
         </form>
-
+        
         <div class="about">
             <img id="big_logo" src="./img/Frame 150.png" alt="logo">
             <p id="main_text">Lorem ipsum</p>
@@ -49,8 +51,13 @@
                  ac amet, iaculis orci, sagittis. 
             </p>
             </div>
+      
+    </div>  
+
+            
+        
         </div> 
-    </div>                
+                
 </body>
 <script src="./index.js"></script>
 </html>
