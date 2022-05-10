@@ -4,9 +4,10 @@ body {
     background-image: url(./img/background.png) ;
     background-repeat: no-repeat;
     background-size: cover; 
+  
   }
     
-/* .container{
+ .container{
     min-height: 100%;
     width: 100%;
     content: '';
@@ -15,10 +16,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3);
-    background: black;
-    opacity: 0.5; 
-} */
+    background: rgba(0, 0, 0, 0.7);
+    
+} 
   
   
 .header {
@@ -38,25 +38,25 @@ body {
 }
    
 .middle_about{
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 230px;
-  margin-left: 384px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 230px;
+  
 }
 
 .form_log {
     width :570px;
     height : 533px;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(35px);
     border-radius: 40px;
-    z-index: 3;
+    
+  
 }
 
 #log_text {
-  margin-top: 84px;
+    margin-top: 84px;
 }
 
   input {
@@ -138,17 +138,15 @@ body {
 
 }
 :focus::-webkit-input-placeholder {
-  color: black;
+    color: black;
 }
 
 .about{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  margin-left: 100px;
- 
-  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 #big_logo {
